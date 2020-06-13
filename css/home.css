@@ -1,0 +1,325 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+  
+  .container{
+    height:100%;
+    margin: 0, auto;
+    padding: 5px;
+  }
+  
+    
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.0;
+    font-style: normal;
+    background-color: #faf6f6;
+  
+  }
+      
+  ul{
+    margin:0%;
+    padding:0%;
+    font-weight:10px;
+    font-size: 20px;
+    height:234px;
+  }
+  
+  .header{
+    color: #ffffff;
+    padding-bottom:10px;
+    min-height:70px;
+    border-bottom: #520129f5 3px solid;
+  }
+  #machala, #home, #Rooms{
+    margin-top:10px;
+    padding-left: 7%;
+  }
+  header nav{
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    
+  }
+  
+  
+  header li{
+    display:flex;
+    float:left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    
+  
+  }
+  
+  #branding{
+    margin:0% 0% 0% 0%;
+    padding:0% 10% 0% 0%;
+  } 
+  
+  header nav{
+    float: right;
+    padding-bottom: 20px;
+    
+  
+  }
+  header .highlight, header .current{
+    color: #b83030f5;
+    font-weight: bold;
+  }
+  header nav:hover{
+    color:#eeecec;
+    font-weight: bold;
+  }
+  
+  .header{
+    background-image: url(../img/header_img.png);
+    background-repeat: no-repeat;
+    height:220px;
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+    
+  }
+      
+  .list{
+      color:#ffffff;
+  
+  }
+  
+  .photos{
+    width:100px;
+    height:20px;
+    padding:5% 0% 10% 10% ;
+    
+  }
+  .check-list-text{
+    color: #F3684A;
+    width: 89px;
+    font-weight: 30px;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase 
+    }
+    
+  .more-text{
+    width: 350px;
+    font-weight: 250;
+    font-size: 28px;
+    line-height: 100%;
+    color: #2D2A2A;
+  }
+  
+  
+  .main-section{
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-right:10%;
+    padding-left:10%;
+    margin-bottom:2%;
+    grid-gap: 40px;
+    
+  }
+    
+  div.room1{ 
+    background-image: url(../img/room1.png);
+    width: 100%;
+    height: 323px;
+    
+  }
+  
+  div.room2{
+    background-image: url(../img/room2.png);
+    width: 100%;
+    height: 323px;
+   
+  }
+  
+  div.room3{
+    background-image: url(../img/room3.png);
+    width: 100%;
+    height: 323px;
+   
+     
+        
+  }
+  div.room4{
+    background-image: url(../img/room4.png);
+    width: 100%;
+    height: 323px;
+    
+      
+  }
+  div.room5{
+    background-image: url(../img/room5.png);
+    width: 100%;
+    height: 323px;
+   
+  }
+  div.room6{
+      background-image: url(../img/room6.png);
+      width: 100%;
+      height: 323px;
+    
+        
+  }
+  div.room7{
+      background-image: url(../img/room7.png);
+      width: 100%;
+      height: 323px;
+      
+      
+  }
+  
+  div.room8{
+      background-image: url(../img/room8.png);
+      width: 100%;
+      height: 323px;
+      
+      
+  }
+  
+  div.room9{
+      background-image: url(../img/room9.png);
+      width: 100%;
+      height: 323px;
+    
+       
+  }
+      
+  #book-room{
+    display:flex;
+    float: 1/2;
+    padding:10%;
+    
+    
+    
+  }
+    
+  #book-img{
+      background-image: url(../img/book_rm.png);
+      width: 100%;
+      height: 330px;
+      
+  
+    }
+   
+    
+  #book-box{ 
+    background-color: #F3684A;
+    width: 100%;
+    height: 330px;
+    
+  
+  }
+    
+  #book-text{
+      color: #ffffff;
+      font-size: 1.5rem;
+      font-weight: 200;
+      margin-top: 6%;
+      padding: 10%;
+      text-align: left;
+  }
+  
+  .book-btn {
+    border-radius: 20px;
+    margin-bottom: 20%;
+    color: var(--orange);
+    transition: all .3s ease-out;
+  }
+    
+  .btn:focus {
+    outline: none;
+  }
+    
+  .book-btn:hover {
+    color: #fff;
+    background: var(--orange);
+    box-shadow: 0 0 0 2px #fff;
+    }
+    
+  .photo-title {
+    margin-left: 11%;
+    color: var(--orange);
+    font-size: 0.875rem;
+    }
+    
+  .picks-title {
+      margin-left: 12%;
+    
+    }
+    
+  .photo-text {
+  
+      color: #fff5ee;
+      margin-left: 11%;
+      font-size: 1.3rem;
+      margin-top: 3%;
+      font-weight: 200px;
+    
+  }
+  
+  
+  .to-pick{
+  
+      display:grid;
+      grid-template-rows: repeat(2, 1f);
+  
+  }
+  
+  .top-pick-prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 5%;
+    box-shadow: 0px 6px 3px 0px #FFF9F9;
+  }
+  
+  .star {
+    width: 45%;
+    margin-top: 6%;
+  }
+  
+  
+  
+  check-list{
+    padding: 0% 0% 10% 10%;
+  }
+  
+  .photo_1{
+    background-image: url(../img/photo_1.png);
+    width:100%;
+    height: 323px;
+  }
+  
+  .photo_2{
+    background-image: url(../img/photo_2.png);
+    width:100%;
+    height: 323px;
+  }
+  
+  .photo_3{
+    background-image: url(../img/photo_3.png);
+    width:100%;
+    height: 323px;
+  }
+  .photo_4{
+    background-image: url(../img/photo_4.png);
+    width:100%;
+    height: 323px;
+  }
+  
+  
+  section{
+    display:flex;
+    float: 1/4;
+    padding: 0% 0% 10% 10%;
+  }
